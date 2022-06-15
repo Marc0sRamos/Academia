@@ -203,9 +203,14 @@ h1 + p {
    width: 30%;
    text-align: center;
    margin: 0 0.3em;
-   padding: 30px 5px;
    border: 3px black solid;
    border-radius: 30px;
   }
   
-  
+  .titulo-plano {
+   font-weight: bolder;
+   font-size: 1.5em;
+   padding: 30px;
+   color: #D90707;
+   
+  }
