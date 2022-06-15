@@ -37,8 +37,8 @@ nav li {
 }
 
 nav li:hover {
-    border:  #D90707 2px solid;
-    border-radius: 5px;
+    border:  #D90707 1px solid;
+    border-radius: 20px;
 
 }
 
@@ -210,7 +210,46 @@ h1 + p {
   .titulo-plano {
    font-weight: bolder;
    font-size: 1.5em;
-   padding: 30px;
+   padding: 15px;
    color: #D90707;
-   
   }
+
+  .beneficios-planos {
+   padding: 10px;
+   font-weight: bold;
+  }
+
+  .beneficios-planos:before{
+      content:"★"
+  }
+
+  .valores-planos {
+   background-color: #D90707;
+   font-size: 18px;
+   font-weight: bolder;
+   padding: 15px 0;
+  }
+
+  .cadastro  {
+   position: relative;
+   text-decoration: none;
+    color: #000000;
+    padding: 20px;
+  }
+
+ .cadastro a{
+   color:#000000;
+   text-decoration: none;
+   font-weight: bolder;
+   text-transform: uppercase;
+   border: 2px black solid;
+   border-radius: 15px;
+   padding: 15px;
+   background-color: #D90707;
+  }
+
+  .cadastro a:hover {
+   background-color: #FFFFFF;
+   cursor: pointer;
+  }
+  
