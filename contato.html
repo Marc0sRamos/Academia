@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+    </style>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Planos</title>
+</head>
+<body>
+
+    <Header>
+        <div class="caixa">
+            <img class="imagem-nav" src="midias/1mr.jpg" alt="">
+            <nav>
+                <div class="lista nav">
+                    <ul>
+                        <a href="index.html"><li>HOME</li></a>
+                        <a href="planos.html"><li>PLANOS</li></a>
+                        <a href="contato.html"><li>ENTRE EM CONTATO</li></a>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </Header>
+    
+    <main>
+        <form>
+            <label for="nomesobrenome">Nome completo</label>
+            <input type="text" id="nomesobrenome" class="input-padrao" required>
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" class="input-padrao" required placeholder="seuemail@gmail.com">
+
+            <LEgend>Como prefere nosso contato?</LEgend>
+                <label for="radio-email"><input type="radio" id="radio-email" name="contato" value="email">Email</label>
+                <label for="radio-telefone"><input type="radio" id="radio-telefone" name="contato"
+                        value="telefone">Telefone</label>
+                <label for="radio-whatsapp"><input type="radio" id="radio-whatsapp" name="contato"
+                        value="whatsapp">Whatsapp</label>
+
+            <legend>Qual horario gostaria de ser atendido ?</legend>
+            <select>
+                <option>Manhã</option>
+                <option>Tarde</option>
+                <option>Noite</option>
+             </select>
+
+             <label class="checkbox"><input type="checkbox">Gostaria de receber sobre as promoçoes?</label>
+
+            <input type="submit" value="Enviar Formulario" class="botao-enviar">
+        </form>
+    </main>
+
+    <footer>
+        <img src="midias/logo.png" alt="">
+        <p>&copy; Copyrigth Academias One More Rep - 2022</p>
+    </footer>

@@ -155,7 +155,7 @@ h1 + p {
  }
 
  .saibamais:hover {
-   background-color: #FC5249;
+   background-color: #D90707;
 }
 
 
@@ -194,9 +194,10 @@ h1 + p {
    font-weight: bolder;
 }
  .planos {
-   width: 940px;
+   width: 70%;
    margin: 0 auto;
    padding: 50px 0;
+   text-align: center;
  }
   .planos li {
    display: inline-block;
@@ -224,10 +225,10 @@ h1 + p {
   }
 
   .valores-planos {
-   background-color: #D90707;
    font-size: 18px;
    font-weight: bolder;
    padding: 15px 0;
+   color: #D90707;
   }
 
   .cadastro  {
@@ -253,3 +254,45 @@ h1 + p {
    cursor: pointer;
   }
   
+
+  /* CSS CONTATO */
+
+  .input-padrao {
+   display: block;
+   margin: 0 0 10px;
+   padding: 10px 25px ;
+   width: 50%;
+   border-radius: 10px;
+}
+
+  form {
+   width: 940px;
+   margin: 40px auto;
+}
+
+form label, form legend{
+   display: block;
+   font-size: 20px;
+   margin:0 0 10px;
+   }
+
+   .checkbox {
+      margin: 20px 0;
+  }
+
+  .botao-enviar:hover {
+   background-color: #D90707;
+  }
+
+   .botao-enviar {
+       width: 40%;
+       padding: 20px;
+       background-color: #FC5249;
+       font-weight: bolder;
+       font-size: 18px;
+       border:none;
+       border-radius: 30px;
+       transition: 1s all; 
+       color: white;
+       cursor: pointer;
+   }
